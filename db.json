@@ -173,8 +173,140 @@
           "id": "string",
           "spkStatus": "string",
           "spkNumber": "string",
-          "towerProvider": "string",
-          "contractNumber": "string",
+          "towerProvider" : "string",
+          "contractNumber" : "string",
+          "commitment": "string",
+          "spkReviewer": "string",
+          "submittedDate": "2020-06-07",
+          "submittedBy": "string",
+          "commitmentTemplate": [
+            {
+              "towerId": "string",
+              "towerName": "string",
+              "tpTowerId": "string",
+              "towerCategory": "string",
+              "siteCondition": "string",
+              "towerStyle": "string",
+              "endLeaseDate": "2020-06-07",
+              "region": "string",
+              "province": "string"
+            }
+          ]
+
+        },
+        {
+          "id": "string2",
+          "spkStatus": "string2",
+          "spkNumber": "string2",
+          "towerProvider" : "string2",
+          "contractNumber" : "string2",
+          "commitment": "string2",
+          "spkReviewer": "string2",
+          "submittedDate": "2020-06-07",
+          "submittedBy": "string2",
+          "commitmentTemplate": [
+            {
+              "towerId": "string",
+              "towerName": "string",
+              "tpTowerId": "string",
+              "towerCategory": "string",
+              "siteCondition": "string",
+              "towerStyle": "string",
+              "endLeaseDate": "2020-06-07",
+              "region": "string",
+              "province": "string"
+            }
+          ]
+        },
+        {
+          "id": "string3",
+          "spkStatus": "string3",
+          "spkNumber": "string3",
+          "towerProvider" : "string3",
+          "contractNumber" : "string3",
+          "commitment": "string3",
+          "spkReviewer": "string3",
+          "submittedDate": "2020-06-07",
+          "submittedBy": "string3",
+          "commitmentTemplate": [
+            {
+              "towerId": "string",
+              "towerName": "string",
+              "tpTowerId": "string",
+              "towerCategory": "string",
+              "siteCondition": "string",
+              "towerStyle": "string",
+              "endLeaseDate": "2020-06-07",
+              "region": "string",
+              "province": "string"
+            }
+          ]
+        }
+      ],
+      "empty": false,
+      "first": true,
+      "last": false,
+      "number": 0,
+      "numberOfElements": 25,
+      "pageable": {
+        "offset": 0,
+        "pageNumber": 0,
+        "pageSize": 25,
+        "paged": true,
+        "sort": {
+          "sorted": false,
+          "unsorted": true,
+          "empty": true
+        },
+        "unpaged": false
+      },
+      "size": 25,
+      "sort": {
+        "empty": true,
+        "sorted": false,
+        "unsorted": true
+      },
+      "totalElements": 3,
+      "totalPages": 1
+    },
+    "message": "success",
+    "status": 200
+  },
+  "spk-detail-test": {
+    "data": {
+      "id": "string",
+      "spkStatus": "string",
+      "spkNumber": "string",
+      "towerProvider" : "string",
+      "contractNumber" : "string",
+      "commitment": "string",
+      "spkReviewer": "string",
+      "submittedDate": "2020-06-07",
+      "submittedBy": "string",
+      "commitmentTemplate": [
+        {
+          "towerId": "string",
+          "towerName": "string",
+          "tpTowerId": "string",
+          "towerCategory": "string",
+          "siteCondition": "string",
+          "towerStyle": "string",
+          "endLeaseDate": "2020-06-07",
+          "region": "string",
+          "province": "string"
+        }
+      ]
+    }
+  },
+  "spk-tower": {
+    "data": {
+      "content": [
+        {
+          "id": "string",
+          "spkStatus": "string",
+          "spkNumber": "string",
+          "towerProvider" : "string",
+          "contractNumber" : "string",
           "commitment": "string",
           "spkReviewer": "string",
           "submittedDate": "2020-06-07",
@@ -184,8 +316,8 @@
           "id": "string2",
           "spkStatus": "string2",
           "spkNumber": "string2",
-          "towerProvider": "string2",
-          "contractNumber": "string2",
+          "towerProvider" : "string2",
+          "contractNumber" : "string2",
           "commitment": "string2",
           "spkReviewer": "string2",
           "submittedDate": "2020-06-07",
@@ -195,8 +327,8 @@
           "id": "string3",
           "spkStatus": "string3",
           "spkNumber": "string3",
-          "towerProvider": "string3",
-          "contractNumber": "string3",
+          "towerProvider" : "string3",
+          "contractNumber" : "string3",
           "commitment": "string3",
           "spkReviewer": "string3",
           "submittedDate": "2020-06-07",
