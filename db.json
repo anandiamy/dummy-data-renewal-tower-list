@@ -123,7 +123,9 @@
           "commitment": "YES",
           "spkReviewer": "Jono",
           "rejectedDate": "2020-02-03",
-          "rejectedBy": "Admin"
+          "rejectedBy": "Admin",
+          "reasonReject": "Reason Reject",
+          "spkDescription": "SPK Description"
         },
         {
           "id": "9a0eec79-ec78-486b-b543-6d0af6c50ed9",
@@ -134,7 +136,9 @@
           "commitment": "NO",
           "spkReviewer": "Aji",
           "rejectedDate": "2020-02-05",
-          "rejectedBy": "Admin"
+          "rejectedBy": "Admin",
+          "reasonReject": "Reason Reject",
+          "spkDescription": "SPK Description"
         }
       ],
       "empty": false,
